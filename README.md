@@ -11,11 +11,10 @@ private; the repos below rebuild the core ideas from scratch on made-up data, so
 | Repo | What it shows |
 |---|---|
 | [**langgraph-order-agent**](https://github.com/joeljo2347-bit/langgraph-order-agent) | A LangGraph agent for order staff: tool calling, human approval before any change (`interrupt()` + checkpoints), an isolated sub-agent, answer checks, an HTTP API, scenario evals on local models |
-| [**rag-evals**](https://github.com/joeljo2347-bit/rag-evals) | Retrieval-augmented answers with citations or "I don't know", and an eval harness: BM25 vs dense vs hybrid, fact accuracy, citation accuracy, refusals, an LLM judge |
+| [**rag-evals**](https://github.com/joeljo2347-bit/rag-evals) | Retrieval-augmented answers with citations or "I don't know", and an eval harness: BM25 vs dense vs hybrid, fact accuracy, citation accuracy, refusals, blind grading |
 | [**sheetsense**](https://github.com/joeljo2347-bit/sheetsense) | Plain-English questions over messy spreadsheets with exact answers: the model writes SQL, SQLite does the math; CLI, web app, Docker |
 | [**noah-studio**](https://github.com/joeljo2347-bit/noah-studio) | Noah Studio, AMII's CBCT review and implant-planning product for doctors: what it does and how it's built (source private) |
 
-**Stack:** Python, FastAPI, LangGraph, LangChain, Ollama and local models (gpt-oss, Qwen), the
-Claude API, MCP, C# and ASP.NET Core, SQLite and Postgres, Docker, GitHub Actions, Linux servers.
+**Stack:** Python, FastAPI, LangGraph, LangChain, self-hosted open-weight models, MCP, C# and ASP.NET Core, SQLite and Postgres, Docker, GitHub Actions, Linux servers.
 
 **Languages:** English, Korean, Mandarin.
