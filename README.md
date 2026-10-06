@@ -21,4 +21,4 @@ first league to call every pitch with ABS.
 
 **Stack:** Python, FastAPI, LangGraph, LangChain, self-hosted open-weight models, MCP, C# and ASP.NET Core, SQLite and Postgres, Docker, GitHub Actions, Linux servers.
 
-**Languages:** English, Korean, Mandarin.
+**Languages:** Korean, English.
