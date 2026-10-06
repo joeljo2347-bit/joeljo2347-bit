@@ -8,8 +8,12 @@ ordering platform: the website where dental practices order, the staff tools beh
 app for staff computers, and **Noah Studio**, a CBCT imaging product for doctors. The code is
 private; the repos below rebuild the core ideas from scratch on made-up data, so you can run them.
 
+Before that, I was a data scientist and strategic data analyst for the **LG Twins** in the KBO, the
+first league to call every pitch with ABS.
+
 | Repo | What it shows |
 |---|---|
+| [**kbo-abs-assist**](https://github.com/joeljo2347-bit/kbo-abs-assist) | Baseball R&D: collects ABS pitch data, calls every pitch by the KBO's zone rules, and turns it into strategy: pitch selection by count, next-pitch prediction, live pitcher tracking, an AI coach for staff |
 | [**langgraph-order-agent**](https://github.com/joeljo2347-bit/langgraph-order-agent) | A LangGraph agent for order staff: tool calling, human approval before any change (`interrupt()` + checkpoints), an isolated sub-agent, answer checks, an HTTP API, scenario evals on local models |
 | [**rag-evals**](https://github.com/joeljo2347-bit/rag-evals) | Retrieval-augmented answers with citations or "I don't know", and an eval harness: BM25 vs dense vs hybrid, fact accuracy, citation accuracy, refusals, blind grading |
 | [**sheetsense**](https://github.com/joeljo2347-bit/sheetsense) | Plain-English questions over messy spreadsheets with exact answers: the model writes SQL, SQLite does the math; CLI, web app, Docker |
